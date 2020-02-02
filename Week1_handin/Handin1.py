@@ -1,3 +1,5 @@
+import math
+
 print("1A")
 print("--------------------------------------------------------")
 
@@ -48,6 +50,13 @@ print("2 Dictionarys")
 print("--------------------------------------------------------")
 
 name_list = ["Peter", "Ingolf", "Mads"]
+res = [];
+for name in name_list:
+    res.append((name, len(name)));
+print(res);
+
+numbers = [(19, math.sqrt(19)), (1112, math.sqrt(1112)), (123, math.sqrt(123))]
+print(numbers);
 
 
 
